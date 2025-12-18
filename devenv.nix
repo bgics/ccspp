@@ -1,6 +1,5 @@
-{
-  pkgs,
-  # lib,
+{ pkgs
+, # lib,
   # config,
   ...
 }: {
@@ -12,5 +11,9 @@
     };
   };
 
-  packages = with pkgs; [ty ruff];
+  packages = with pkgs; [
+    ty
+    ruff
+    taplo
+  ];
 }
