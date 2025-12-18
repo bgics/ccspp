@@ -12,5 +12,5 @@
     };
   };
 
-  packages = with pkgs; [basedpyright ruff];
+  packages = with pkgs; [ty ruff];
 }

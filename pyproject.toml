@@ -9,8 +9,6 @@ dependencies = []
 [dependency-groups]
 dev = []
 
-[tool.pyright]
-include = ["src"]
-venvPath = ".devenv/state"
-venv = "venv"
-
+[tool.ty.environment]
+root = ["./src"]
+python = "./.devenv/state/venv"
