@@ -48,7 +48,7 @@ if __name__ == "__main__":
         * 100
     )
     print(f"original is {getsizeof(original)} bytes")
-    compressed: CompressedGene = CompressedGene(original)  # compress
+    compressed: CompressedGene = CompressedGene(original)
     print(f"compressed is {getsizeof(compressed.bit_string)} bytes")
     print(compressed)
     print(
